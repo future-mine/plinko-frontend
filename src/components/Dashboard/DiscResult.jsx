@@ -4,6 +4,7 @@ import React from "react";
 import "./discresult.css";
 
 const DiscResult = ({ results }) => {
+  const medium = Math.ceil(results.length/2)
   return (
     <div className="disc-result">
       <div className="d-flex">
@@ -11,7 +12,7 @@ const DiscResult = ({ results }) => {
           <div
             className="score"
             key={index}
-            style={{ backgroundColor: `rgba(255, 123, 0, ${result / 1000})` }}
+            style={{ backgroundColor: `rgba(255, 123, 0, ${Math.abs(index - medium) / medium})` }}
           >
             <p>{result}x</p>
           </div>

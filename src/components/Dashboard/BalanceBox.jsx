@@ -2,10 +2,10 @@
 
 import React from 'react';
 
-const BalanceBox = () => {
+const BalanceBox = ({balance, resultIndex}) => {
   return (
     <div className="balance-box">
-      <p>Balance: $500</p>
+      <p>Balance: ${balance}</p>
     </div>
   );
 }
