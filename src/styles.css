@@ -1,0 +1,101 @@
+/* styles.css */
+
+/* Shared styles */
+.layout {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+/* Login/Register styles */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-group button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Dashboard styles */
+.balance-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.disc-result {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.link {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.link strong {
+  cursor: pointer;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.link strong:hover {
+  color: #0056b3;
+}
+/* Add more styles as needed */
+.d-flex {
+  display: flex;
+}
